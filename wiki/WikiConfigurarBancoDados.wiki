@@ -1,0 +1,3 @@
+= Sistema de Monitoramento de Ações =
+
+== Como instalar e configurar o Banco de Dados para a Aplicação ==
