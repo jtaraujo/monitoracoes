@@ -14,10 +14,10 @@
 ||{{{coletorWeb.jar}}}||Programa reponsável para acessar as cotações do site da [http://www.infomoney.com.br Infomoney] com um delay de 15 minutos para atualizar as cotações no banco de dados||
 ||{{{importBovespa.jar}}}||Programa reponsável para acessar o arquivo com as séries históricas disponibilizadas no site da [http://www.bovespa.com.br Bovespa]||
 ||{{{LimparCotacoes.jar}}}||Programa reponsável para limpar todas as cotações do Banco de Dados||
-|| *monitorWeb.jar* || *Programa reponsável para monitorar as ações da bolsa brasileira* ||
+||{{{monitorWeb.jar}}}|| Programa reponsável para monitorar as ações da bolsa brasileira ||
 ||{{{coletorWeb.bat}}}||Arquivo responsável de executar o programa _coletorWeb_||
 ||{{{importBovespa.bat}}}||Arquivo responsável de executar o programa _importBovespa_||
 ||{{{LimparCotacoes.bat}}}||Arquivo responsável de executar o programa {{{LimparCotacoes}}}||
-||{{{monitorWeb.bat}}}||Arquivo responsável de executar o programa _monitorWeb_||
+|| *monitorWeb.bat* || *Arquivo responsável de executar o programa _monitorWeb_* ||
 
 [PaginaInicial Voltar]
