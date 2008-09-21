@@ -15,6 +15,7 @@ Para executar este programa é necessário tem instalado na sua máquina:
 
 == Documentação ==
 
-  * [WikiConfigurarBancoDados Como instalar e configurar o Banco de Dados para a Aplicação]
+  * [WikiInstalarBancoDados Como instalar o Banco de Dados para a Aplicação]
+  * [WikiConfigurarBancoDados Como configurar o Banco de Dados para a Aplicação]
   * [WikiAtualizarDadosCotacoes Como atualizar as Cotações (Série Histórica Bovespa)]
   * [WikiAtualizarDadosPlanilha Como atualizar a Planilha Análise Gráfica]
