@@ -12,3 +12,9 @@ Para executar este programa é necessário tem instalado na sua máquina:
   * Java Runtime Edition (Versão 1.4 ou superior)
   * Banco de Dados Prostgres (Versão 8.2 ou superior)
   * Conexão com internet (100 Kbps ou superior)
+
+= Documentação =
+
+  * [WikiConfigurarBancoDados Como instalar e configurar o Banco de Dados para a Aplicação]
+  * [WikiAtualizarDadosCotacoes Como atualizar as Cotações (Série Histórica Bovespa)]
+  * [WikiAtualizarDadosPlanilha Como atualizar a Planilha Análise Gráfica]
