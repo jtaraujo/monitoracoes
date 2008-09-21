@@ -1,3 +1,18 @@
 = Sistema de Monitoramento de Ações =
 
 == Como instalar e configurar o Banco de Dados para a Aplicação ==
+
+Instruções passo a passo:
+
+ # Em http://www.postgresql.org/download você pode fazer o download do arquivo compactado contendo o instalador, ele possui aproximadamente 25 MB de tamanho.
+ # Descompacte o pacote e execute o arquivo postgresql-8.2.msi.Você vai perceber que há seis idiomas para sua escolha (Inglês, Alemão, Francês, Sueco, Turco e Português (Brasil)).
+ # Na janela seguinte, você terá as opções de instalação. Aconselho que os módulos de Database Server e de User Interface fiquem habilitados. http://conteudo.imasters.com.br/2917/01.jpg
+ # Se você desejar que o PostgreSQL seja instalado como um serviço no Windows habilite o checkbox "Install as service". Aqui vem uma das partes mais críticas da instalação, que é relacionado a colocação do usuário que vai rodar o serviço. *A senha padrão do programa*, para acessar o banco de dados é login:_postgres_ e senha:_admin_. http://conteudo.imasters.com.br/2917/02.jpg 
+ # Na janela seguinte é pedida as opções relacionadas a que porta o servidor irá rodar, codificação e também qual será o super usuário. Este usuário é um usuário interno do SGBD e não pode possuir a mesma senha do usuário do Windows especificado anteriormente. Também existe a opção para aceitar conexões que não são vindas de localhost. Por mais que esta opção esteja selecionada, você terá que conceder acesso aos endereços que desejar editando o arquivo pg_hba.conf. 
+http://conteudo.imasters.com.br/2917/04.jpg
+ # Você também terá que optar pelos módulos adicionais que deseja instalar, na imagem abaixo eu selecionei praticamente todas, pois desejo fazer experimentos com eles, mas não é necessários que você deixe todos habilitados, fica a seu critério o que você realmente vai utilizar. http://conteudo.imasters.com.br/2917/06.jpg
+ # Se você optou por instalar o módulo do PostGIS, uma nova janela irá aparecer perguntando se deseja habilitar as funções do PostGIS em template1.
+ # Pronto, muito fácil. Agora o instalador jogará os arquivos adequadamente nos lugares especificados e seu PostgreSQL 8.0 estará pronto para trabalhar.
+
+
+http://code.google.com/p/monitoracoes/wiki/PaginaInicial
