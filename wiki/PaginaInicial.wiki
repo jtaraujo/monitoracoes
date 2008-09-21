@@ -13,9 +13,12 @@ Para executar este programa é necessário tem instalado na sua máquina:
   * Banco de Dados Prostgres (Versão 8.2 ou superior)
   * Conexão com internet (100 Kbps ou superior)
 
-== Documentação ==
+== Passo a passo para execução do programa ==
 
-  * [WikiInstalarBancoDados Como instalar o Banco de Dados para a Aplicação]
-  * [WikiConfigurarBancoDados Como configurar o Banco de Dados para a Aplicação]
-  * [WikiAtualizarDadosCotacoes Como atualizar as Cotações (Série Histórica Bovespa)]
-  * [WikiAtualizarDadosPlanilha Como atualizar a Planilha Análise Gráfica]
+Para utilizar este programa é necessário um conjunto de passos para finalmente executar o programa:
+  # [WikiInstalarBancoDados Como instalar o Banco de Dados para a Aplicação]
+  # [WikiConfigurarBancoDados Como configurar o Banco de Dados para a Aplicação]
+  # [WikiInstalarPrograma Como instalar o programa no computador]
+  # [WikiAtualizarDadosCotacoes Como atualizar as Cotações (Série Histórica Bovespa)]
+  # [WikiAtualizarDadosPlanilha Como atualizar a Planilha Análise Gráfica]
+  # [WikiExecutarPrograma Finalmente, como executar o programa.]
