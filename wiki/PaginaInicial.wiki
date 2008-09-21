@@ -1,19 +1,19 @@
 #labels Featured
 = Sistema de Monitoramento de Ações =
 
-= Introdução =
+== Introdução ==
 
 Este sistema que realiza o monitoramento de ações levando em consideração os suportes e resistências de todas as ações que compoem o índice Bovespa.
 
 
-= Pré-Requisitos =
+== Pré-Requisitos ==
 
 Para executar este programa é necessário tem instalado na sua máquina:
   * Java Runtime Edition (Versão 1.4 ou superior)
   * Banco de Dados Prostgres (Versão 8.2 ou superior)
   * Conexão com internet (100 Kbps ou superior)
 
-= Documentação =
+== Documentação ==
 
   * [WikiConfigurarBancoDados Como instalar e configurar o Banco de Dados para a Aplicação]
   * [WikiAtualizarDadosCotacoes Como atualizar as Cotações (Série Histórica Bovespa)]
