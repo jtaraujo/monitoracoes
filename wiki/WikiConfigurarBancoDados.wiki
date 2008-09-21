@@ -2,7 +2,7 @@
 
 == Como instalar e configurar o Banco de Dados para a Aplicação ==
 
-Instruções passo a passo:
+=== Instruções passo a passo: ===
 
  # Em http://www.postgresql.org/download você pode fazer o download do arquivo compactado contendo o instalador, ele possui aproximadamente 25 MB de tamanho.
  # Descompacte o pacote e execute o arquivo postgresql-8.2.msi.Você vai perceber que há seis idiomas para sua escolha (Inglês, Alemão, Francês, Sueco, Turco e Português (Brasil)). http://monitoracoes.googlecode.com/svn/trunk/docs/images/BancoDeDados/Passo_2_Selecao_Idioma.JPG
@@ -13,5 +13,4 @@ Instruções passo a passo:
  # *Não é necessário instalar nenhum módulo adicional* para o programa funcionar. Na figura abaixo todas estão selecionadas, porém fica a seu critério o que você realmente vai utilizar. http://monitoracoes.googlecode.com/svn-history/r11/trunk/docs/images/BancoDeDados/Passo_7_Habilitar_Modulos.JPG
  # Pronto, continue clicando em "_Próximo_" até concluir a Instalação.
 
-
-http://code.google.com/p/monitoracoes/wiki/PaginaInicial
+[PaginaInicial Voltar]
