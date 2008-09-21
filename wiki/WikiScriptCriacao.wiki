@@ -247,9 +247,6 @@ order by alerta,variacao desc
 )
 
 
-[WikiConfigurarBancoDados Voltar]
-
-
-
-
 }}}
+
+[WikiConfigurarBancoDados Voltar]
