@@ -1,0 +1,15 @@
+= Sistema de Monitoramento de Ações =
+
+== Como instalar o programa no computador ==
+
+=== Instruções passo a passo: ===
+
+ # Faça o download do arquivo [http://monitoracoes.googlecode.com/files/monitoracoes-0.1.0.zip monitoracoes-0.1.0.zip]
+ # Descompacte o arquivo em uma pasta do seu disco. Por exemplo o drive "C:\".
+
+ A função de cada arquivo está descrito abaixo:
+||*Arquivo*||*Descrição*||
+||-||-||
+
+
+[PaginaInicial Voltar]
