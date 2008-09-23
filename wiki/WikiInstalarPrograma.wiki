@@ -4,7 +4,7 @@
 
 === Instruções passo a passo: ===
 
- # Faça o download do arquivo _*monitoracoes-0.1.0.zip*_
+ # Faça o download do arquivo [http://monitoracoes.googlecode.com/files/monitoracoes-0.1.0.zip monitoracoes-0.1.0.zip]
  # Descompacte o arquivo em uma pasta do seu disco. Por exemplo o drive "C:\" (*Não é necessário nenhum instalacão adicional*).
  http://monitoracoes.googlecode.com/svn/trunk/docs/images/InstalacaoPrograma/Passo_1_Descompactar_Arquivos.JPG
 || *Arquivo* || *Descrição* ||
