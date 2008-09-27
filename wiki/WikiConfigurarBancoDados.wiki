@@ -5,7 +5,7 @@
 === Instruções passo a passo: ===
 
  # Clique “Iniciar -> Programas -> PostGreSQL 8.2 -> pgAdmin III “. Depois, selecione a opção “localhost”, clique com o botão direito e então “Connect”. http://monitoracoes.googlecode.com/svn/trunk/docs/images/ConfigurarPostgres/Passo_1_Conectar_Postgres.JPG
- # Após conectar ao banco de dados, selecione a opção na árvore da esquerda “Localhost -> Database(1)” e  clique com o botão direito "New Database...". 
+ # Após conectar ao banco de dados, selecione a opção na árvore da esquerda “Localhost -> Database(1)” e  clique com o botão direito "New Database..." e digite "cotacoes" no nome do Banco de Dados e clique "ÖK".  
 http://monitoracoes.googlecode.com/svn/trunk/docs/images/ConfigurarPostgres/Passo_3_Criar_Banco.JPG
  # Após criar o banco de dados "cotacoes", selecione a opção na árvore da esquerda “Localhost -> Database(2) -> cotacoes ”. 
  # Então clique na opção “Tools -> Query Tool” no menu. Desta forma, uma nova janela abrirá para executar os comandos de criação e configuração do Banco de Dados.
@@ -15,7 +15,7 @@ http://monitoracoes.googlecode.com/svn/trunk/docs/images/ConfigurarPostgres/Pass
 NOTICE:  ALTER TABLE / ADD PRIMARY KEY will create implicit index "cotacao_pk" for table "cotacao"
 NOTICE:  ALTER TABLE / ADD PRIMARY KEY will create implicit index "planilha_pk" for table "planilha"
 
-Query returned successfully with no result in 13547 ms.
+Query returned successfully with no result in 297 ms
 }}}
 
 [PaginaInicial Voltar]
