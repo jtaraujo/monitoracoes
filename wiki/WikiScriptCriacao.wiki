@@ -3,14 +3,6 @@
 == Script de Criação do Banco de Dados para a Aplicação ==
 
 {{{
--- Database: cotacoes
-
--- DROP DATABASE cotacoes;
-
-CREATE DATABASE cotacoes
-  WITH OWNER = postgres
-       ENCODING = 'SQL_ASCII';
-
 
 CREATE TABLE COTACAO
 (
