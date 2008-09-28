@@ -5,7 +5,7 @@
 === Instruções passo a passo: ===
 
  # Estes passos só serão necessários quando a corretora [http://www.agorainvest.com.br Ágora] disponibilizar a planilha com os dados atualizados, geralmente esta tarefa deve ser feita *somente uma vez por dia*.
- # Para atualizar a Planilha Análise Gráfica, inicie o programa (monitorWeb.bat) e clique na opção “Arquivo -> Atualizar Cotações Históricas”. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarPlanilha/Passo_1_Selecionar_Menu.JPG
+ # Para atualizar a Planilha Análise Gráfica, inicie o programa (*monitorWeb.bat*) e clique na opção “Arquivo -> Atualizar Cotações Históricas”. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarPlanilha/Passo_1_Selecionar_Menu.JPG
  # Para verificar se a planilha foi atualizada corretamente, acompanhe as mensagens na janela auxiliar da aplicação. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarPlanilha/Passo_2_Planilha_Atualizada.JPG
 
 [PaginaInicial Voltar]
