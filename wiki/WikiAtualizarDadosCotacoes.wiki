@@ -1,0 +1,13 @@
+= Sistema de Monitoramento de Ações =
+
+== Como atualizar as Cotações (Série Histórica Bovespa) ==
+
+=== Instruções passo a passo: ===
+
+ # Este passo *só será necessário* em duas situações:
+  # Quando for a *primeira utilização* do programa ou;
+  # Se as cotações do Banco de Dados estiverem *desatualizadas*.
+ # Vá no site da [http://www.bovespa.com.br Bovespa] e selecionar a opção “Mercado -> Ações -> Dados Históricos -> Cotações Históricas”. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_1_Site_Bovespa.JPG
+
+
+[PaginaInicial Voltar]
