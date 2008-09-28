@@ -12,7 +12,7 @@
  # Após efetuar o _login_ na área restrita do site da Bovespa,selecione o ano para efetuar o download das séries anuais. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_3_Selecionar_Ano.JPG
  # Em seguida, digite a seqüencia de caracteres de verificação para efetuar o download. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_4_Baixar_Arquivo.JPG
  # Ao salvar o arquivo das Cotações Históricas, você pode escolher *qualquer pasta* para salvar este arquivo. Neste exemplo, utilizamos a pasta que instalamos o programa de monitoramento de ações. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_5_Salvar_Arquivo.JPG
- # Para atualizar as cotações, inicie o programa (monitorWeb.bat) e clique na opção “Arquivo -> Atualizar Cotações Históricas”. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_6_Atualizar_Cotacoes.JPG
+ # Para atualizar as cotações, inicie o programa (*monitorWeb.bat*) e clique na opção “Arquivo -> Atualizar Cotações Históricas”. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_6_Atualizar_Cotacoes.JPG
  # Selecione o arquivo que você salvou no *passo 6*. http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_7_Selecionar_Arquivo.JPG
  # Para verificar se as cotações históricas estão atualizando o banco de dados da aplicação corretamente, acompanhe as mensagens na janela auxiliar da aplicação.  http://monitoracoes.googlecode.com/svn/trunk/docs/images/AtualizarCotacoes/Passo_8_Cotacoes_Atualizadas.JPG
 
