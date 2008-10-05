@@ -29,9 +29,9 @@ http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_
 || *Coluna* || *Descrição* || *Observação* ||
 ||{{{Ação}}}||Código da Ação||||
 ||{{{Variação}}}||Variação da Ação||||
-||{{{Preço}}}||Cotação Atual da Ação||||
-||{{{IFR}}}||Índice de Força Relativa||||
-||{{{STK %}}}||Estocástico||||
+||{{{Preço}}}||Cotação Atual da Ação||Atualizado pelo site da [http://www.infomoney.com.br Infomoney] com delay de 15 minutos||
+||{{{IFR}}}||Índice de Força Relativa||IFR = 100-(100/ (1 + FR)), onde FR = media de ganhos / media de perdas (Cconsiderando a média de 9 pregões)||
+||{{{STK %}}}||Estocástico Normal||Considerado Período %K igual 10 e Período %D igual 3||
 ||{{{Topo}}}||Distância da Cotação Atual em relação a máxima do pregão anterior||||
 ||{{{Fundo}}}||Distância da Cotação Atual em relação a mínima do pregão anterior||||
 ||{{{Suportes}}}||Suportes da Ação fornecida pelo site da corretora [http://www.agorainvest.com.br Ágora]||||
