@@ -6,7 +6,10 @@
 
 == Uso da aba Monitoramento ==
 
- # Nesta opção é possível verificar as grandes variações no número de negócios, volume e gaps de ações que não possuem normalmente este comportamento.
+ # Nesta opção é possível verificar as grandes variações no número de negócios, volume, gaps de abertura e média aritmética de ações que não possuem normalmente este comportamento. Os tipo de alerta mostrado na coluna {{{Alerta}}} são:
+  * *Alerta _Dias Média Curta_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Curta}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 3 dias
+  * *Alerta _Dias Média Longa_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Longa}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 20 dias
+  * *Alerta _Dias Média Longa_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Longa}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 20 dias
  # Ao clicar na opção "Arquivo -> Configurar", é possível configurar os parâmetros da aplicação http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_1_Monitoramento.JPG
 || *Parâmetro* || *Descrição* || *Observação* ||
 ||{{{Data Monitor}}}||Data que deve exibir as informações do Monitor||A data que inicia o programa é a Data Atual, para atualizar a data mostrada na tela inical deve-se realizar este processo duas vezes (*Isto será corrigido para as próximas Versões*)||
