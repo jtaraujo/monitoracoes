@@ -9,13 +9,13 @@
  # Nesta opção é possível verificar as grandes variações no número de negócios, volume e gaps de ações que não possuem normalmente este comportamento.
 http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_1_Monitoramento.JPG
 
- * Ao clica na opção "Arquivo -> Configurar", é possível configurar as seguintes informações:
+ # Ao clicar na opção "Arquivo -> Configurar", é possível configurar as seguintes informações:
 ||*Parâmetro*||*Descrição*||*Observação*||
-||Data Monitor|Data que deve exibir as informações do Monitor||A data que inicia o programa é a Data Atual, para atualizar a data mostrada na tela inical deve-se realizar este processo duas vezes (Isto será corrigido para as próximas Versões)||
+||Data Monitor||Data que deve exibir as informações do Monitor||A data que inicia o programa é a Data Atual, para atualizar a data mostrada na tela inical deve-se realizar este processo duas vezes (Isto será corrigido para as próximas Versões)||
 ||Dias Média Curta||Média da cotações dos ultimos 3 pregões (*Valor Default é 3*)||Utilizado para verificar se a cotação atual já está acima da cotação média dos ultimos 3 pregões||
+||Dias Média Longa||Média da cotações dos ultimos 20 pregões (*Valor Default é 20*)||Utilizado para verificar se a cotação atual já está acima da cotação média dos ultimos 20 pregões||
+||Filtro Mínimo de Negócios||Filtro para não exibir ações que não tiveram no pregão corrente o mínimo de 10 negócios||(*Valor Default é 10*)||
 
-||Dias Média Longa||||
-||Filtro Mínimo de Negócios||||
 ||Variação GAP Abertura (%)||||
 ||Multiplicador Volume||||
 
