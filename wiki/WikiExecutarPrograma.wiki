@@ -7,9 +7,10 @@
 == Uso da aba Monitoramento ==
 
  # Nesta opção é possível verificar as grandes variações no número de negócios, volume, gaps de abertura e média aritmética de ações que não possuem normalmente este comportamento. Os tipo de alerta mostrado na coluna {{{Alerta}}} são:
-  * *Alerta _Dias Média Curta_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Curta}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 3 dias
-  * *Alerta _Dias Média Longa_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Longa}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 20 dias
-  * *Alerta _Dias Média Longa_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Longa}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 20 dias
+  * *Alerta _Dias Média Curta_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Curta}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 3 dias.
+  * *Alerta _Dias Média Longa_ dias* - cotação atual possui variação positiva e é maior que a média dos ultimos {{{Dias Média Longa}}} dias, possuindo mais negócios que o {{{Filtro Mínimo de Negócios}}}.Exemplo: alerta 20 dias.
+  * *Alerta _GAP Abertura_ * - cotação atual possui variação positiva e possui um GAP de Abertura maior que {{{Variação GAP Abertura}}}.Exemplo: GAP 5 %.
+  * *Alerta _Volume_ * - cotação atual possui um volume {{{Multiplicador Volume}}} vezes maior que o volume médio dos últimos {{{Dias Média Longa}}} dias. Exemplo: VOLUME 20 dias 416.32 %.
  # Ao clicar na opção "Arquivo -> Configurar", é possível configurar os parâmetros da aplicação http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_1_Monitoramento.JPG
 || *Parâmetro* || *Descrição* || *Observação* ||
 ||{{{Data Monitor}}}||Data que deve exibir as informações do Monitor||A data que inicia o programa é a Data Atual, para atualizar a data mostrada na tela inical deve-se realizar este processo duas vezes (*Isto será corrigido para as próximas Versões*)||
@@ -26,5 +27,18 @@
  # Nesta opção é possível verificar os suportes e resistências das *ações que compõem o índice Bovespa*, disponibilizando a relação _Stop Loss_ / _Stop Gain_ de cada componente do índice. 
 http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_2_Planilha.JPG
 || *Coluna* || *Descrição* || *Observação* ||
+||{{{Ação}}}||Código da Ação||||
+||{{{Variação}}}||Variação da Ação||||
+||{{{Preço}}}||Cotação Atual da Ação||||
+||{{{IFR}}}||Índice de Força Relativa||||
+||{{{STK %}}}||Estocástico||||
+||{{{Topo}}}||Distância da Cotação Atual em relação a máxima do pregão anterior||||
+||{{{Fundo}}}||Distância da Cotação Atual em relação a mínima do pregão anterior||||
+||{{{Suportes}}}||Suportes da Ação fornecida pelo site da corretora [http://www.agorainvest.com.br Ágora]||||
+||{{{Resistências}}}||Resistência da Ação fornecida pelo site da corretora [http://www.agorainvest.com.br Ágora]||||
+||{{{Stop Loss 1}}}||Distância entre a cotação atual e o suporte 1||||
+||{{{Stop Gain 1}}}||Distância entre a cotação atual e a resitência 1||||
+||{{{Stop Loss 2}}}||Distância entre a cotação atual e o suporte 2||||
+||{{{Stop Gain 2}}}||Distância entre a cotação atual e a resitência 2||||
 
 [PaginaInicial Voltar]
