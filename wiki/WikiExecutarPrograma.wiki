@@ -28,7 +28,7 @@
 http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_2_Planilha.JPG
 || *Coluna* || *Descrição* || *Observação* ||
 ||{{{Ação}}}||Código da Ação||||
-||{{{Variação}}}||Variação da Ação||Se for maior do que 0 (Zero) será VERDE, caso contrário VERMELHO||
+||{{{Variação}}}||Variação da Ação||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.bmp, caso contrário VERMELHO||
 ||{{{Preço}}}||Cotação Atual da Ação||Atualizado pelo site da [http://www.infomoney.com.br Infomoney] com delay de 15 minutos||
 ||{{{IFR}}}||Índice de Força Relativa||IFR = 100-(100/ (1 + FR)), onde FR = media de ganhos / media de perdas (Cconsiderando a média de 9 pregões)||
 ||{{{STK %}}}||Estocástico Normal||Considerado Período %K igual 10 e Período %D igual 3||
