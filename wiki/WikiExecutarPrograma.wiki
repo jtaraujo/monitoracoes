@@ -28,17 +28,17 @@
 http://monitoracoes.googlecode.com/svn/trunk/docs/images/ExecutarPrograma/Passo_2_Planilha.JPG
 || *Coluna* || *Descrição* || *Observação* ||
 ||{{{Ação}}}||Código da Ação||||
-||{{{Variação}}}||Variação da Ação||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.bmp, caso contrário VERMELHO||
+||{{{Variação}}}||Variação da Ação||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERMELHO.PNG||
 ||{{{Preço}}}||Cotação Atual da Ação||Atualizado pelo site da [http://www.infomoney.com.br Infomoney] com delay de 15 minutos||
-||{{{IFR}}}||Índice de Força Relativa||IFR = 100-(100/ (1 + FR)), onde FR = media de ganhos / media de perdas (Cconsiderando a média de 9 pregões)||
-||{{{STK %}}}||Estocástico Normal||Considerado Período %K igual 10 e Período %D igual 3||
-||{{{Topo}}}||Distância da Cotação Atual em relação a máxima do pregão anterior||||
-||{{{Fundo}}}||Distância da Cotação Atual em relação a mínima do pregão anterior||||
+||{{{IFR}}}||Índice de Força Relativa, IFR = 100-(100/ (1 + FR)), onde FR = media de ganhos / media de perdas (Considerando a média de 9 pregões)||Se for menor do que 30 (Trinta) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERMELHO.PNG, Se for entre 30 (Trinta) e 70 (Setenta) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/AZUL.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.PNG||
+||{{{STK %}}}||Estocástico Normal, considerado Período %K igual 10 e Período %D igual 3||Se for menor do que 20 (Vinte) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERMELHO.PNG, Se for entre 20 (Vinte) e 80 (Oitenta) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/AZUL.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.PNG||
+||{{{Topo}}}||Distância da Cotação Atual em relação a máxima do pregão anterior||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/AZUL.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERMELHO.PNG||
+||{{{Fundo}}}||Distância da Cotação Atual em relação a mínima do pregão anterior||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/LARANJA.PNG||
 ||{{{Suportes}}}||Suportes da Ação fornecida pelo site da corretora [http://www.agorainvest.com.br Ágora]||||
 ||{{{Resistências}}}||Resistência da Ação fornecida pelo site da corretora [http://www.agorainvest.com.br Ágora]||||
-||{{{Stop Loss 1}}}||Distância entre a cotação atual e o suporte 1||||
-||{{{Stop Gain 1}}}||Distância entre a cotação atual e a resitência 1||||
-||{{{Stop Loss 2}}}||Distância entre a cotação atual e o suporte 2||||
-||{{{Stop Gain 2}}}||Distância entre a cotação atual e a resitência 2||||
+||{{{Stop Loss 1}}}||Distância entre a cotação atual e o suporte 1||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/LARANJA.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERMELHO.PNG||
+||{{{Stop Gain 1}}}||Distância entre a cotação atual e a resitência 1||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/AZUL.PNG||
+||{{{Stop Loss 2}}}||Distância entre a cotação atual e o suporte 2||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/LARANJA.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERMELHO.PNG||
+||{{{Stop Gain 2}}}||Distância entre a cotação atual e a resitência 2||Se for maior do que 0 (Zero) será http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/VERDE.PNG, caso contrário http://monitoracoes.googlecode.com/svn/trunk/docs/images/Cores/AZUL.PNG||
 
 [PaginaInicial Voltar]
