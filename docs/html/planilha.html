@@ -1,0 +1,1431 @@
+
+
+
+<html>
+<head>
+<title>&Aacute;gora</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/estilos1.css" rel="stylesheet" type="text/css">
+
+
+<script language="JavaScript">
+var texto_abra_conta='Abra sua Conta';
+var texto_abra_conta2='Abertura de Conta';
+</script>
+
+
+
+
+<script language="JavaScript">
+var baseHref;
+baseHref='/';
+</script>
+<style type="text/css">
+<!--
+.tb_padrao {
+	width:98%;
+	border:none;
+	border-collapse:collapse;
+	background-color:#FFFFFF;
+	
+	border-top:none;
+	border-right:solid 1px #E5E6E7;
+	border-bottom:solid 1px #E5E6E7;
+	border-left:solid 1px #E5E6E7;
+	text-align:center;
+}
+body {
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#bt_ferramentas
+{
+	margin:10px 0px 10px 0px;
+	height:17px;
+}
+
+#bt_ferramentas img{
+	float:right;
+	margin:0px 15px 0px 5px;
+	cursor:pointer;
+	cursor:hand;
+}
+-->
+</style>
+
+
+<script type="text/javascript">
+
+    function mudaCor(id, color) {
+        var id = document.getElementById(id);
+        id.style.backgroundColor = "#E5E6E7";
+        id.style.cursor = "hand";
+    }
+    function voltaCor(id, color) {
+        var id = document.getElementById(id);
+        id.style.backgroundColor = color; /* Define a cor de fundo padrão #E5E6E7 */
+    }
+
+    function abrir_help(URL) {
+        var width = 410;
+        var height = 295;
+        var left = 200;
+        var right = 200;
+        var top = 99;
+        window.open(URL, 'janela', 'width=' + width + ', height=' + height + ', top=' + top + ', left=' + left + ', scrollbars=no');
+    }
+
+
+    //Adiconado por Eduardo Lima - 27/02/2014 - Projeto Boleta Rápida
+    function mOverLinkBoleta(obj, codisin) {
+        if (typeof parent.AbrirBoletaPreenchida == 'function') {
+            obj.cells[0].onclick = function () { parent.AbrirBoletaPreenchida(codisin, true); }
+        }
+        obj.style.backgroundColor = "#FCF3EA";
+        obj.style.cursor = "pointer";
+        obj.cells[0].style.color = "#ee7009";
+    }
+
+    //Adiconado por Eduardo Lima - 27/02/2014 - Projeto Boleta Rápida
+    function mOutLinkBoleta(obj, cor) {
+        obj.style.backgroundColor = cor;
+        obj.cells[0].style.color = "";
+    }
+
+</script>
+
+</head>
+
+
+
+
+<body>
+
+	
+         			    
+					<table width="700" border="0" align="left" cellpadding="0" cellspacing="0" class="left">				
+                      <th height="427" align="left" valign="top" scope="row"> <!--////////////////////////// -->
+															
+															
+
+                          <table  border="0" cellpadding="0"  align=left cellspacing="0" ID="Table1">
+	<div id="bt_ferramentas">
+       		<a href="javascript:abrir_help('help_form.html','Agora');"><img src="img/ajuda.gif" alt="Ajuda" border="0"/></a>
+       	</div>		
+														
+											<tr valign="bottom">
+																  <th height="17" align="left" bgcolor="#FFFFFF" scope="row">
+																		
+<table width="98%" border="0" cellspacing="0" cellpadding="6">
+
+<tr bgcolor='#F7f7f7' width='100px' height='20'><td class='Trebuchet_cinza_10' colspan=11 align='right'><span class='Trebuchet_cinza_10_bold'>Última Atualização:</span> 02/07/2014 às 17:59</td></tr><tr bgcolor='#ffffff' width='100px' height='2px'><td></td></tr></table>
+	
+<table width="98%" border="0" cellspacing="0" cellpadding="6" class="tb_padrao">
+  <tr>
+    <td width="12%" rowspan="2" align="center" bgcolor="#e5e6e7" class="Trebuchet_cinza_10_bold">A&ccedil;&atilde;o</td>
+    <td width="14%" rowspan="2" align="center" bgcolor="#E5E6E7" class="Trebuchet_cinza_10_bold">Preço de Fechamento (R$)</td>
+    <td height="20" colspan="2" align="center" bgcolor="#d1d1d1" class="Trebuchet_cinza_10_bold">Recomendação</td>    
+    <td colspan="3" bgcolor="#DBDBDB" class="Trebuchet_cinza_10_bold" align="center">Suportes</td>
+    <td colspan="3" align="center" bgcolor="#D1D1D1" class="Trebuchet_cinza_10_bold">Resist&ecirc;ncias</td>
+    <td width="12%" rowspan="2" align="center" bgcolor="#E5E6E7" class="Trebuchet_cinza_10_bold">Gr&aacute;ficos</td>
+  </tr>
+  <tr>
+    <td width="11%" height="20" align="center" bgcolor="#dbdbdb" class="Trebuchet_cinza_10">Posi&ccedil;&atilde;o</td>
+    <td width="11%" align="center" bgcolor="#DBDBDB" class="Trebuchet_cinza_10">Data</td>
+    <td width="8%" align="center" bgcolor="#e5e6e7" class="Trebuchet_cinza_10">1&ordm;</td>
+    <td width="8%" align="center" bgcolor="#e5e6e7" class="Trebuchet_cinza_10">2&ordm;</td>
+    <td width="8%" align="center" bgcolor="#e5e6e7" class="Trebuchet_cinza_10">3&ordm;</td>
+    <td width="8%" align="center" bgcolor="#DBDBDB" class="Trebuchet_cinza_10">1&ordm;</td>
+    <td width="8%" align="center" bgcolor="#DBDBDB" class="Trebuchet_cinza_10">2&ordm;</td>
+    <td width="8%" align="center" bgcolor="#DBDBDB" class="Trebuchet_cinza_10">3º</td>
+    </tr>
+
+
+ 
+  <tr  id="linha1" onMouseOver="mOverLinkBoleta(this,'ALLL3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ALLL3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">8,10</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">7,42</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">6,58</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">5,64</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8,89</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">9,08</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ALLL3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha2" onMouseOver="mOverLinkBoleta(this,'ABEV3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ABEV3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">16,01</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">30/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">15,44</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">15,03</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">14,60</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">16,68</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">17,37</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ABEV3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha3" onMouseOver="mOverLinkBoleta(this,'BBAS3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BBAS3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">24,94</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">23,44</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">21,55</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">18,31</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">26,79</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">28,30</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BBAS3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha4" onMouseOver="mOverLinkBoleta(this,'BBDC4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BBDC4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">32,13</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra*</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">30,77</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">26,00</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">24,54</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">35,08</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BBDC4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha5" onMouseOver="mOverLinkBoleta(this,'BISA3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BISA3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">1,46</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">17/2/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">1,34</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">1,16</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">1,02</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">1,49</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">1,52</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BISA3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha6" onMouseOver="mOverLinkBoleta(this,'BRAP4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BRAP4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">20,54</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra*</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">18,22</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">17,50</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">20,55</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">21,20</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BRAP4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha7" onMouseOver="mOverLinkBoleta(this,'BRFS3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BRFS3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">52,89</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">30/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">47,53</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">43,48</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">38,98</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">53,07</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">55,55</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BRFS3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha8" onMouseOver="mOverLinkBoleta(this,'BRKM5');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BRKM5</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">14,02</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">21/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">13,63</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">16,19</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">17,37</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BRKM5', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha9" onMouseOver="mOverLinkBoleta(this,'BRML3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BRML3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">18,69</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">5/6/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">17,05</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">15,39</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">20,37</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">22,59</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BRML3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha10" onMouseOver="mOverLinkBoleta(this,'BTOW3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BTOW3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">28,35</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">28/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">21,81</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">19,47</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">14,61</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">33,45</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BTOW3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha11" onMouseOver="mOverLinkBoleta(this,'BVMF3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>BVMF3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">11,59</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">2/6/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">10,62</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">10,08</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">11,88</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">12,96</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=BVMF3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha12" onMouseOver="mOverLinkBoleta(this,'CCRO3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CCRO3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">18,03</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">17,46</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">15,76</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">18,89</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+			<td height="20"  class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CCRO3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a>
+        </td>
+  </tr>
+  
+  <tr  id="linha13" onMouseOver="mOverLinkBoleta(this,'CESP6');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CESP6</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">28,11</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">22/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">25,60</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">22,90</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">18,56</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">29,30</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">31,66</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CESP6', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha14" onMouseOver="mOverLinkBoleta(this,'CIEL3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CIEL3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">45,56</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">3/6/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">37,83</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">35,45</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">32,88</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">46,67</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CIEL3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha15" onMouseOver="mOverLinkBoleta(this,'CMIG4');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CMIG4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">15,95</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">14/5/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">15,50</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">14,09</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">12,04</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">18,60</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">19,48</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+			<td height="20"  class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CMIG4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a>
+        </td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha16" onMouseOver="mOverLinkBoleta(this,'CPFE3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CPFE3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">19,82</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">17,46</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">15,86</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">15,22</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">20,91</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">22,50</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CPFE3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha17" onMouseOver="mOverLinkBoleta(this,'CPLE6');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CPLE6</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">32,93</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">22/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">32,23</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">30,70</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">28,01</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">36,08</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">36,87</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CPLE6', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha18" onMouseOver="mOverLinkBoleta(this,'CRUZ3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CRUZ3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">22,40</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">30/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">22,12</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">19,94</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">18,84</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">24,48</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CRUZ3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha19" onMouseOver="mOverLinkBoleta(this,'CSAN3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CSAN3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">39,58</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8/1/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">36,32</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">35,15</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">32,26</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">41,79</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">42,84</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+			<td height="20"  class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CSAN3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a>
+        </td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha20" onMouseOver="mOverLinkBoleta(this,'CSNA3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CSNA3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">9,31</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">8,50</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">7,86</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">5,90</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">10,31</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">11,27</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CSNA3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha21" onMouseOver="mOverLinkBoleta(this,'CYRE3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>CYRE3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">13,89</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">6/5/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">12,75</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">12,63</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">11,73</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">13,91</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">14,26</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=CYRE3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha22" onMouseOver="mOverLinkBoleta(this,'DASA3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>DASA3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">13,70</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutro</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">13,12</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">12,04</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">15,67</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">18,00</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=DASA3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha23" onMouseOver="mOverLinkBoleta(this,'DTEX3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>DTEX3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">8,76</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">8,11</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8,92</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">9,65</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=DTEX3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha24" onMouseOver="mOverLinkBoleta(this,'ELET3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ELET3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">6,17</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">4,30</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">6,31</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">7,90</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ELET3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha25" onMouseOver="mOverLinkBoleta(this,'ELET6');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ELET6</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">10,18</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">9,42</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">7,29</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">11,15</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">11,52</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ELET6', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha26" onMouseOver="mOverLinkBoleta(this,'ELPL4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ELPL4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">10,56</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">22/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">8,77</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">8,16</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">7,44</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">11,15</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">11,91</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ELPL4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha27" onMouseOver="mOverLinkBoleta(this,'EMBR3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>EMBR3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">20,43</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">26/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">18,40</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">17,90</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">21,20</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">21,52</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=EMBR3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha28" onMouseOver="mOverLinkBoleta(this,'FIBR3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>FIBR3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">21,43</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">29/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">20,03</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">21,71</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">23,94</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=FIBR3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha29" onMouseOver="mOverLinkBoleta(this,'GFSA3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>GFSA3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">3,28</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">3,15</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">2,90</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">2,74</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">3,40</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">3,90</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=GFSA3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha30" onMouseOver="mOverLinkBoleta(this,'GGBR4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>GGBR4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">12,93</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">12,92</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">12,55</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">11,39</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">14,79</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">17,28</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=GGBR4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha31" onMouseOver="mOverLinkBoleta(this,'GOAU4');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>GOAU4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">15,64</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">14,79</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">15,67</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">17,73</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=GOAU4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha32" onMouseOver="mOverLinkBoleta(this,'GOLL4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>GOLL4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">12,40</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">30/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">11,82</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">9,59</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">9,07</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">13,18</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">14,59</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=GOLL4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha33" onMouseOver="mOverLinkBoleta(this,'HGTX3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>HGTX3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">22,12</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">26/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">21,18</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">25,04</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">26,12</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+			<td height="20"  class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=HGTX3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a>
+        </td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha34" onMouseOver="mOverLinkBoleta(this,'HYPE3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>HYPE3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">19,30</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">17,62</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">15,91</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">14,22</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+			<td height="20"  class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=HYPE3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a>
+        </td>
+  </tr>
+  
+  <tr  id="linha35" onMouseOver="mOverLinkBoleta(this,'ITSA4');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ITSA4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">8,71</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">8,40</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">8,31</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">7,20</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">9,32</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ITSA4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha36" onMouseOver="mOverLinkBoleta(this,'ITUB4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>ITUB4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">32,00</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">24/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">31,22</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">30,50</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">26,39</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">34,41</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=ITUB4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha37" onMouseOver="mOverLinkBoleta(this,'JBSS3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>JBSS3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">7,55</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">7,41</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">7,15</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">7,03</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8,20</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8,51</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=JBSS3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha38" onMouseOver="mOverLinkBoleta(this,'KLBN4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>KLBN4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">2,14</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra*</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">2,12</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">2,05</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">1,93</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">2,39</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">2,47</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=KLBN4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha39" onMouseOver="mOverLinkBoleta(this,'LAME4');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>LAME4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">14,03</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">13,15</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">11,12</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">10,85</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">14,79</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">15,16</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=LAME4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha40" onMouseOver="mOverLinkBoleta(this,'LIGT3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>LIGT3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">21,75</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">30/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">19,36</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">16,81</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">15,80</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">23,30</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=LIGT3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha41" onMouseOver="mOverLinkBoleta(this,'LLXL3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>LLXL3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">-</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">0,91</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">0,75</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">1,22</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">1,48</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=LLXL3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha42" onMouseOver="mOverLinkBoleta(this,'LREN3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>LREN3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">70,70</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">30/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">68,12</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">64,99</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">60,96</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">73,68</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=LREN3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha43" onMouseOver="mOverLinkBoleta(this,'MMXM3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>MMXM3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">1,87</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">14/5/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">2,53</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">2,90</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=MMXM3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha44" onMouseOver="mOverLinkBoleta(this,'MRFG3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>MRFG3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">5,92</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">5,49</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">4,48</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">3,99</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">6,24</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=MRFG3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha45" onMouseOver="mOverLinkBoleta(this,'MRVE3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>MRVE3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">7,61</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">7,16</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">6,41</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">6,09</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8,03</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">8,41</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=MRVE3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha46" onMouseOver="mOverLinkBoleta(this,'NATU3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>NATU3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">37,50</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>baixa</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">24/4/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">35,04</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">34,12</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">37,73</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">41,27</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=NATU3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha47" onMouseOver="mOverLinkBoleta(this,'OGXP3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>OGXP3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">0,19</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">0,16</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">0,14</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">0,24</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">0,27</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=OGXP3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha48" onMouseOver="mOverLinkBoleta(this,'PCAR4');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>PCAR4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">102,57</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">28/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">100,62</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">94,65</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">92,33</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">109,12</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">111,73</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=PCAR4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha49" onMouseOver="mOverLinkBoleta(this,'PDGR3');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>PDGR3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">1,45</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Neutra</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">1,26</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">1,71</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">1,76</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=PDGR3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha50" onMouseOver="mOverLinkBoleta(this,'PETR3');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>PETR3</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">16,02</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">6/5/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">15,42</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">14,54</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">11,61</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">18,14</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">19,65</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+        	<td height="20"   class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=PETR3', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a> 
+			</td>
+  </tr>
+  
+  <tr  id="linha51" onMouseOver="mOverLinkBoleta(this,'PETR4');" onMouseOut="mOutLinkBoleta(this, 'white');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>PETR4</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">17,18</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>Alta</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">27/3/2014</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">17,01</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">16,29</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">15,24</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">19,13</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">20,15</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20">-</td>
+     
+			<td height="20"  class="Trebuchet_cinza_10"><a href="#" onClick="javascript:window.open('pop_grafico.asp?ativo=PETR4', 'Gráfico' , 'height = 460 , width = 680, scrollbars=no');"><img src="img/bt_lupa.gif" border="0"></a>
+        </td>
+  </tr>
+  
+  <tr bgcolor="#F0F0F0" id="linha52" onMouseOver="mOverLinkBoleta(this,'-');" onMouseOut="mOutLinkBoleta(this, '#F0F0F0');" >
+    <td  class="Trebuchet_cinza_10" width="6%"  height="20"  ><b>-</b></td>        
+    <td  class="Trebuchet_cinza_10" width="13%" height="20">-</td>
+    
+    
+				<td  class="Trebuchet_cinza_10" width="9%" height="20"><font color=Gray>-</font></td>			
+			
+    
+	    
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    
+    
+    <td  class="Trebuchet_cinza_10" width="9%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="6%" height="20">-</td>
+    <td class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="8%" height="20">-</td>
+    <td  class="Trebuchet_cinza_10" width="7%" height="20"><!-- aqui a pagina:-><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--SPINNEX v2.2.5 20150317101204-->
+
+<html lang="pt">
+<head>
+<title>Ágora</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="title" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="description" content="">
+<meta name="subject" content="">
+<meta name="reviewdate" content="">
+<meta name="date" content="">
+<meta name="language" content="pt">
+<link href="/include/template.css" rel="stylesheet" id="spxcss">
+<script type="text/javascript" language="JavaScript" src="/include/template.js"></script>
+</head>
+<body>
+<DIV align=center>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD><A href="https://www.agorainvest.com.br/"><IMG border=0 src="/images/erro/tela_erro_topo.jpg"></A></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(/images/erro/tela_erro_bg.jpg); PADDING-LEFT: 30px; PADDING-RIGHT: 30px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD><style type="text/css">
+<!--
+.font {
+	font-family:Trebuchet MS, Tahoma, Verdana, Arial;
+	color:#f5821f;
+                font-size:20px;
+}
+-->
+</style>
+<table width="540" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="21%" rowspan="2" valign="top"><img src="/images/erro/erro_icone.jpg" alt="" valign="top"></td>
+    <td width="1%"></td>
+    <td width="78%" class="font"><br><strong><span class="SpinnexSubtitulo">OCORREU UM ERRO INESPERADO.</strong></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> <p><br />
+A &aacute;rea t&eacute;cnica acaba de ser acionada para solucionar o problema. <br />
+<br />
+Em caso de indisponibilidade do Home Broker, entre em contato para operar com a Mesa de Opera&ccedil;&otilde;es de sua regi&atilde;o. A corretagem ser&aacute; a mesma cobrada nas negocia&ccedil;&otilde;es online (Home Broker). <br />
+<br />
+<strong>Regi&otilde;es Metropolitanas:</strong> 4004 8282 <br />
+<br />
+<strong>Demais localidades:</strong> 0800 724 8282 <br />
+<br />
+Desculpe o transtorno.</p>
+<p><a href="javascript:DirectTalk();"><img alt="" border="0" src="/images/bloqueio-de-conteudo/fale-agora-com-nossos-especialistas.gif" /></a>&nbsp;</p>
+<div align="right"><a target="_parent" href="https://www.agorainvest.com.br/">Clique aqui para voltar.</a></div></td>
+  </tr>
+</table></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD><IMG alt="" src="/images/erro/tela_erro_rodape.jpg"></TD></TR></TBODY></TABLE></DIV>
+
+<script type="text/javascript"> 
+	var UAMobile = 	"UA-3779171-6";
+	var UA = 	"UA-3779171-1";
+</script> 
+
+
+
+
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+<script type="text/javascript">
+try 
+{
+	
+		var pageTracker = _gat._getTracker(UA); 
+	
+	
+	pageTracker._initData(); 
+	pageTracker._trackPageview();
+	pageTracker._setVar('segmento=0; perfil=3');  
+}
+catch (ex)
+{
+	
+}	
+
+</script> 
+
+
